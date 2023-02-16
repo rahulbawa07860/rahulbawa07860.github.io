@@ -78,7 +78,7 @@ section{
     padding: 160px 15% 120px;
 
 }
-.home{
+#home{
     position: relative;
     height: 100vh;
     width: 100%;
@@ -164,7 +164,7 @@ header.sticky{
 
 /* about section styles---------------------------------- */
 
-.about{
+#about{
     border: 0px solid red;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -278,13 +278,26 @@ header.sticky{
     cursor: pointer;
 }
 
+/* github section -------------- */
+.max-width{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#github-streak-stats {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+
 /* project section style--- ----------------------- */
 /* #project{
     height: 1000px;
 } */
 .nav-link-projects{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(450px, auto));
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
@@ -349,7 +362,7 @@ header.sticky{
 
 /* ----------contact section style ---- ----------------------- */
 
-.contact{
+#contact{
     background: var(--second-bg-color);
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -478,6 +491,15 @@ header.sticky{
     .end{
         padding: 15px 3%;
     }
+    #calendar{
+        width: 100%;
+        /* margin: auto;
+        margin-top: 50px; */
+    }
+    .ht1{
+        width: 100%;
+        
+     }
 }
 
 @media (max-width: 1100px){
@@ -491,12 +513,31 @@ header.sticky{
     .home-text h3{
         font-size: 2.5rem;
     }
-    .home{
+    #home{
         height: 87vh;
+    }
+    #github-streak-stats {
+        margin-top: 50px;
+        display: grid;
+        justify-content: space-between;
+      }
+      #calendar{
+        width: 100%;
+        /* margin: auto;
+        margin-top: 50px; */
+    }
+    .ht1{
+        width: 100%;
+        
+     }
+     .nav-link-projects{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(450px, auto));
+       
     }
 }
 @media (max-width:920px){
-    .about{
+    #about{
         grid-template-columns: 1fr;
     }
     .about-img{
@@ -508,9 +549,29 @@ header.sticky{
         height: auto;
         max-width:100%
     }
-    .contact{
+    #contact{
         grid-template-columns: 1fr;
     }
+    #github-streak-stats {
+        margin-top: 50px;
+        display: grid;
+        justify-content: space-between;
+      }
+      #calendar{
+        width: 100%;
+        /* margin: auto;
+        margin-top: 50px; */
+    }
+    .ht1{
+        width: 100%;
+        
+     }
+     .nav-link-projects{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+       
+    }
+    
 }
 
 /* --------menu icons  */
@@ -547,4 +608,26 @@ header.sticky{
     .navlist.open{
         top:100%;
     }
+    #calendar{
+        width: 100%;
+        /* margin: auto;
+        margin-top: 50px; */
+    }
+    #github-streak-stats {
+       
+        display: grid;
+        /* justify-content: space-between; */
+      }
+     .ht1{
+        width: 100%;
+        
+     }
+     .nav-link-projects{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+       
+    }
 }
+
+
+
