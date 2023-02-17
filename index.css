@@ -237,7 +237,7 @@ header.sticky{
   
 
 }
-.s-icons i{
+.skills-card-img i{
     font-size: 32px;
     margin-bottom: 20px;
 }
@@ -294,7 +294,7 @@ header.sticky{
   #github-top-langs{
     border: 0px solid red;
     height: 195px;
-    margin-top: 106%;
+    margin-top: -10%;
     
   }
 
@@ -510,7 +510,7 @@ header.sticky{
      #github-top-langs{
         border: 0px solid red;
         height: 195px;
-        margin-top: -7%;
+        margin-top: -9%;
       }
      
 }
