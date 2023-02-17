@@ -285,17 +285,24 @@ header.sticky{
     margin-top: 50px;
 }
 
-#github-streak-stats {
+#stat {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    gap:10px;
+  }
+  #github-top-langs{
+    border: 0px solid red;
+    height: 195px;
+    margin-top: 106%;
+    
   }
 
 /* project section style--- ----------------------- */
 /* #project{
     height: 1000px;
 } */
-.nav-link-projects{
+#nav-link-projects{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, auto));
     align-items: center;
@@ -500,6 +507,12 @@ header.sticky{
         width: 100%;
         
      }
+     #github-top-langs{
+        border: 0px solid red;
+        height: 195px;
+        margin-top: -7%;
+      }
+     
 }
 
 @media (max-width: 1100px){
@@ -516,7 +529,7 @@ header.sticky{
     #home{
         height: 87vh;
     }
-    #github-streak-stats {
+    #stat {
         margin-top: 50px;
         display: grid;
         justify-content: space-between;
@@ -530,11 +543,16 @@ header.sticky{
         width: 100%;
         
      }
-     .nav-link-projects{
+     #nav-link-projects{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(450px, auto));
+        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
        
     }
+    #github-top-langs{
+        border: 0px solid red;
+        height: 195px;
+        margin-top: 0px;
+      }
 }
 @media (max-width:920px){
     #about{
@@ -552,7 +570,7 @@ header.sticky{
     #contact{
         grid-template-columns: 1fr;
     }
-    #github-streak-stats {
+    #stat {
         margin-top: 50px;
         display: grid;
         justify-content: space-between;
@@ -566,7 +584,7 @@ header.sticky{
         width: 100%;
         
      }
-     .nav-link-projects{
+     #nav-link-projects{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(350px, auto));
        
@@ -613,7 +631,7 @@ header.sticky{
         /* margin: auto;
         margin-top: 50px; */
     }
-    #github-streak-stats {
+    #stat {
        
         display: grid;
         /* justify-content: space-between; */
@@ -622,7 +640,7 @@ header.sticky{
         width: 100%;
         
      }
-     .nav-link-projects{
+     #nav-link-projects{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, auto));
        

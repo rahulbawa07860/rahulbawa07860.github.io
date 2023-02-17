@@ -34,7 +34,10 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="https://github.com/rahulbawa07860">GitHub</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="https://drive.google.com/u/0/uc?id=10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv&export=download" class="nav-link resume"  id="resume-link-1" onclick="window.open('https://drive.google.com/file/d/10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv/view?usp=sharing')" download="" target="_blank" class="menu-btn">Resume</a></li>
+            <div id="resume-button-2">
+                <li><a  id="resume-link-2" href="https://drive.google.com/u/0/uc?id=10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv&export=download" class="nav-link resume"   onclick="window.open('https://drive.google.com/file/d/10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv/view?usp=sharing')" download="" target="_blank" class="menu-btn">Resume</a></li> 
+            </div>
+          
             </ul>
 
         </ul>
@@ -44,7 +47,7 @@
         </div>
     </header>
     <!-- home section design -->
-    <section class="nav-link home" id="home" >
+    <section id="home" >
         <div class="nav-link-home">
             <div class="slide">
                 <span class="one">Hello</span>
@@ -54,8 +57,8 @@
             <h3>Java Backend <span>Developer.</span></h3>
             <!-- <p>Lorem ipsum dolor olorum earum magni veniam! Iste hic minima minus cumque libero.</p> -->
 
-            <div class="resume-button-2">
-                <a href="https://drive.google.com/u/0/uc?id=10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv&export=download" class="btn" id="resume-link-2" onclick="window.open('https://drive.google.com/file/d/10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv/view?usp=sharing')"><span><i class='bx bx-download'></i></span>Resume</a>
+            <div id="resume-button-1">
+                <a id="resume-link-1" href="https://drive.google.com/u/0/uc?id=10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv&export=download" class="btn" id="resume-link-2" onclick="window.open('https://drive.google.com/file/d/10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv/view?usp=sharing')"><span><i class='bx bx-download'></i></span>Resume</a>
             </div>
         </div>
     
@@ -66,7 +69,7 @@
     <section class="nav-link about" id="about">
         <!-- <div class="nav-link-about"> -->
         <div class="about-img">
-            <img id="home-img" src="https://i.ibb.co/z7KqGWR/portfolio-image.jpg" alt="">
+            <img id="home-img" src="https://i.ibb.co/dWYFVQc/portfolio-image.jpg" alt="">
         </div>
 
         <div class="nav-link-about">
@@ -174,12 +177,15 @@
             <h2><span>GitHub </span>Statistics</h2>
 
         </div>
-        <div id="github-streak-stats">
-          <div id="github-top-langs">
-              <img class ="ht1" src="https://github-readme-stats.vercel.app/api?username=rahulbawa07860&show_icons=true&theme=dark" alt="">
+        <div id="stat">
+          <div >
+              <img class ="ht1"  id="github-streak-stats" src="https://github-readme-stats.vercel.app/api?username=rahulbawa07860&show_icons=true&theme=dark" alt="">
           </div>
-          <div  id="github-stats-card">
-              <img class = "ht1" src="https://github-readme-streak-stats.herokuapp.com/?user=rahulbawa07860&theme=dark" alt="">
+          <div  >
+              <img class = "ht1"  id="github-stats-card"  src="https://github-readme-streak-stats.herokuapp.com/?user=rahulbawa07860&theme=dark" alt="">
+          </div>
+          <div >
+              <img class = "ht1"   id="github-top-langs"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahulbawa07860&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="">
           </div>
         </div>
         <div id="calendar" class="react-activity-calendar">
@@ -196,7 +202,7 @@
 
         </div>
 
-        <div class="nav-link-projects">
+        <div class="nav-link projects" id="nav-link-projects">
             <div class="project-card">
                 <img src="https://i.ibb.co/g3CDQpP/lucious.png" alt="">
                 <div class="layer">
@@ -204,6 +210,7 @@
                     <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consectetur, 
                         voluptates similique voluptatum quis sint?
                     </p>
+                    <p class="project-tech-stack">Tech-Stack</p>
                     <a href="https://chic-mochi-dfb641.netlify.app/" id="project-github-link"><i class='bx bxl-github' ></i></a>
                     <a href="https://chic-mochi-dfb641.netlify.app/" id="project-deployed-link"><i class='bx bxl-github' ></i></a>
 
@@ -216,7 +223,9 @@
                     <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consectetur, 
                         voluptates similique voluptatum quis sint?
                     </p>
-                    <a href="#"><i class='bx bxl-github' ></i></a>
+                    <p class="project-tech-stack">Tech-Stack</p>
+                    <a href="https://chic-mochi-dfb641.netlify.app/" id="project-github-link"><i class='bx bxl-github' ></i></a>
+                    <a href="https://chic-mochi-dfb641.netlify.app/" id="project-deployed-link"><i class='bx bxl-github' ></i></a>
 
                 </div>
             </div>
@@ -227,7 +236,9 @@
                     <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consectetur, 
                         voluptates similique voluptatum quis sint?
                     </p>
-                    <a href="#"><i class='bx bxl-github' ></i></a>
+                    <p class="project-tech-stack">Tech-Stack</p>
+                    <a href="https://chic-mochi-dfb641.netlify.app/" id="project-github-link"><i class='bx bxl-github' ></i></a>
+                    <a href="https://chic-mochi-dfb641.netlify.app/" id="project-deployed-link"><i class='bx bxl-github' ></i></a>
 
                 </div>
             </div>
@@ -239,7 +250,9 @@
                     <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consectetur, 
                         voluptates similique voluptatum quis sint?
                     </p>
-                    <a href="#"><i class='bx bxl-github' ></i></a>
+                    <p class="project-tech-stack">Tech-Stack</p>
+                    <a href="https://chic-mochi-dfb641.netlify.app/" id="project-github-link"><i class='bx bxl-github' ></i></a>
+                    <a href="https://chic-mochi-dfb641.netlify.app/" id="project-deployed-link"><i class='bx bxl-github' ></i></a>
 
                 </div>
             </div>
