@@ -35,7 +35,7 @@
             <li><a href="https://github.com/rahulbawa07860">GitHub</a></li>
             <li class="nav-link contact"><a href="#contact">Contact</a></li>
             <div class="nav-link resume" id="resume-button-2">
-                <li><a  id="resume-link-2" href="https://drive.google.com/u/0/uc?id=10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv&export=download" class="nav-link resume"   click="window.open('https://drive.google.com/file/d/10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv/view?usp=sharing')" download="" target="_blank" class="menu-btn">Resume</a></li> 
+                <li><a  id="resume-link-2" href="https://drive.google.com/u/0/uc?id=10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv&export=download" class="nav-link resume"   onclick="window.open('https://drive.google.com/file/d/10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv/view?usp=sharing')" download="" target="_blank" class="menu-btn">Resume</a></li> 
             </button>
           
             </ul>
@@ -58,7 +58,7 @@
             <!-- <p>Lorem ipsum dolor olorum earum magni veniam! Iste hic minima minus cumque libero.</p> -->
 
             <button id="resume-button-1">
-                <a id="resume-link-1" href="https://drive.google.com/u/0/uc?id=10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv&export=download" class="btn" id="resume-link-2" click="window.open('https://drive.google.com/file/d/10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv/view?usp=sharing')" download="" target="_blank"><span><i class='bx bx-download'></i></span>Resume  </a>
+                <a id="resume-link-1" href="https://drive.google.com/u/0/uc?id=10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv&export=download" class="btn" id="resume-link-2" onclick="window.open('https://drive.google.com/file/d/10VrWvQVzQyJG8GxPHSL_7w4cBiijrhfv/view?usp=sharing')" download="" target="_blank"><span><i class='bx bx-download'></i></span>Resume  </a>
             </button>
         </div>
     
@@ -73,8 +73,8 @@
         </div>
 
         <div class="nav-link-about">
-            <h2 id="about.about.section">About <span>Me</span></h2>
-            <h4>Java Backend Developer</h4>
+            <h2 >About <span>Me</span></h2>
+            <h4 id="about.section">Java Backend Developer</h4>
             <p id="user-detail-intro">Aspiring Java Backend Developer with a specialization in Java, Spring Boot, SQL, REST APIs, Git/Github, AWS, HTML, CSS, Javascript, Object-oriented, design Self-motivated and curious, with a keen interest in building user-centric products. Looking forward to honing my skills in a challenging work environment</p>
                  <!-- <a href="#" class="btn">Netlify</a> -->
                  <a href="https://github.com/rahulbawa07860" class="btn">GitHub</a>
@@ -307,11 +307,11 @@
 
         </div>
         <div class="contact-form">
-            <form action="">
-                <input type="name" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email Address" required>
-                <input type="" placeholder="Your Mobile Number" required>
-                <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+            <form>
+                <input type="name" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email Address" required>
+                <input type="" id="mobile-number" placeholder="Your Mobile Number" required>
+                <textarea name="" id="message" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
                 <input type="submit" value="Send Message" class="submit" required>
             </form>
         </div>
@@ -340,6 +340,20 @@
 
     <!-- custom js link -->
     <script type="text/javascript" src="js/script.js"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "shivjimahadev0@gmail.com",
+    Password : "0EEDC0CCA04F2E91786DE7A4ADF63B02316D",
+    To : 'shivjimahadev0@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "This is the subject",
+    Body : document.getElementById("message").value
+}).then(
+  message => alert(message)
+); -->
+    </script>
 </body>
 </html>
 <script src="./index.js"></script>

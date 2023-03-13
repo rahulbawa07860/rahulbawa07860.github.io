@@ -294,6 +294,7 @@ header.sticky{
   #github-top-langs{
     border: 0px solid red;
     height: 195px;
+    /* width: auto; */
     margin-top: -10%;
     
   }
@@ -549,8 +550,7 @@ header.sticky{
        
     }
     #github-top-langs{
-        border: 0px solid red;
-        height: 195px;
+       
         margin-top: 0px;
       }
 }
