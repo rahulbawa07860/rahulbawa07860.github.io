@@ -613,7 +613,7 @@ header.sticky{
     #stat {
         margin-top: 50px;
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         justify-content: space-between;
         align-items: center;
         gap:10px;
