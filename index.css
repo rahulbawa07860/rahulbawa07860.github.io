@@ -287,17 +287,21 @@ header.sticky{
 
 #stat {
     margin-top: 50px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
+    align-items: center;
     gap:10px;
   }
   #github-top-langs{
     border: 0px solid red;
     height: 195px;
     /* width: auto; */
-    margin-top: -10%;
+  
     
   }
+ 
+  
 
 /* project section style--- ----------------------- */
 /* #project{
@@ -511,7 +515,15 @@ header.sticky{
      #github-top-langs{
         border: 0px solid red;
         height: 195px;
-        margin-top: -9%;
+       
+      }
+      #stat {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap:10px;
       }
      
 }
@@ -553,6 +565,15 @@ header.sticky{
        
         margin-top: 0px;
       }
+
+      #stat {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap:10px;
+      }
 }
 @media (max-width:920px){
     #about{
@@ -563,7 +584,7 @@ header.sticky{
         order: 2;
     }
     .about-img img{
-        width: 100%;
+        width: 50%;
         height: auto;
         max-width:100%
     }
@@ -586,9 +607,17 @@ header.sticky{
      }
      #nav-link-projects{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+        grid-template-columns: repeat(1, minmax(350px, auto));
        
     }
+    #stat {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap:10px;
+      }
     
 }
 
@@ -642,9 +671,17 @@ header.sticky{
      }
      #nav-link-projects{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+        grid-template-columns: repeat(1, minmax(300px, auto));
        
     }
+    #stat {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap:10px;
+      }
 }
 
 
