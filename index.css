@@ -23,6 +23,7 @@
 body{
     background: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 
 header{
@@ -288,7 +289,7 @@ header.sticky{
 #stat {
     margin-top: 50px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     align-items: center;
     gap:10px;
@@ -300,7 +301,9 @@ header.sticky{
   
     
   }
- 
+ #edit{
+    margin-left: 50%;
+ }
   
 
 /* project section style--- ----------------------- */
@@ -520,11 +523,14 @@ header.sticky{
       #stat {
         margin-top: 50px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-content: space-between;
         align-items: center;
         gap:10px;
       }
+      #edit{
+        margin-left: 50%;
+     }
      
 }
 
@@ -569,11 +575,16 @@ header.sticky{
       #stat {
         margin-top: 50px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-content: space-between;
         align-items: center;
         gap:10px;
       }
+      #edit{
+        margin-left: 100px;
+        margin-right: -200px;
+      }
+      
 }
 @media (max-width:920px){
     #about{
@@ -613,11 +624,15 @@ header.sticky{
     #stat {
         margin-top: 50px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         justify-content: space-between;
         align-items: center;
         gap:10px;
       }
+      #edit{
+        
+        margin-left: 0%;
+     }
     
 }
 
@@ -682,6 +697,9 @@ header.sticky{
         align-items: center;
         gap:10px;
       }
+      #edit{
+        margin-left: 0%;
+     }
 }
 
 
