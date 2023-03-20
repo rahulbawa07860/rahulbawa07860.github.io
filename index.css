@@ -529,6 +529,7 @@ header.sticky{
         gap:10px;
       }
       #edit{
+        margin-right: -40%;
         margin-left: 50%;
      }
      
@@ -581,9 +582,9 @@ header.sticky{
         gap:10px;
       }
       #edit{
-        margin-left: 100px;
-        margin-right: -200px;
-      }
+        margin-right: -40%;
+        margin-left: 50%;
+     }
       
 }
 @media (max-width:920px){
@@ -630,7 +631,7 @@ header.sticky{
         gap:10px;
       }
       #edit{
-        
+        margin-right: 0%;
         margin-left: 0%;
      }
     
@@ -698,7 +699,9 @@ header.sticky{
         gap:10px;
       }
       #edit{
+        margin-right: 0%;
         margin-left: 0%;
+        
      }
 }
 
