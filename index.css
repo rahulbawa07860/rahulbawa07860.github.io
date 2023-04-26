@@ -176,10 +176,10 @@ header.sticky{
 }
 .about-img img{
     border: 0px solid red;
-    max-width: 500px;
+    max-width: 450px;
     height: auto;
     width: 100%;
-    border-radius: 60%;
+    border-radius: 70%;
     align-items: end;
     
 }
@@ -329,7 +329,7 @@ header.sticky{
     display: block;
     transition: transform 0.5s;
 }
-.layer{
+/* .layer{
     width: 100%;
     height: 0;
     background: linear-gradient(rgba(0,0,0,0.1),#ff004f);
@@ -345,7 +345,7 @@ header.sticky{
     text-align: center;
     padding: 0 40px;
     transition: height 0.5s;
-}
+} */
 .layer h5{
     font-size: 20px;
     font-weight: 600;
@@ -367,13 +367,13 @@ header.sticky{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-}
-.project-card:hover img{
+} */
+/* .project-card:hover img{
     transform: scale(1.1);
 }
-.project-card:hover .layer{
+ .project-card:hover .layer{
     height: 100%;
-}
+} */
 
 /* ----------contact section style ---- ----------------------- */
 
@@ -384,7 +384,15 @@ header.sticky{
     align-items: center;
     gap: 2.5rem;
 }
-
+#hh{
+    border: 0px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    gap:3.5rem;
+}
+#hh>div{
+    border: 0px solid green;
+}
 .nav-link-contact h4{
     color: var(--text-color);
     margin: 18px 0;
@@ -442,7 +450,7 @@ header.sticky{
     padding: 14px;
     background: var(--bg-color);
     color: var(--text-color);
-    border: none;
+    border: 1px solid grey;
     outline: none;
     font-size: 15px;
     border-radius: 8px;
@@ -450,7 +458,7 @@ header.sticky{
 }
 .contact-form textarea{
     resize: none;
-    height: 240px;
+    height: 170px;
 }
 .contact-form .submit{
     display: inline-block;
@@ -486,6 +494,7 @@ header.sticky{
     color: var(--text-color);
     background: var(--main-color);
 }
+
 
 
 /* -------------responsive styling */
@@ -634,6 +643,13 @@ header.sticky{
         margin-right: 0%;
         margin-left: 0%;
      }
+     #hh{
+        border: 0px solid red;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: space-evenly;
+        gap:3.5rem;
+    }
     
 }
 
